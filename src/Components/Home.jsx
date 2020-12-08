@@ -26,7 +26,7 @@ const HomeView = (props) => {
         <div className="home-container">
           <div className="home-title">Hi, I am Hardik</div>
           <Typing startDelay={500} speed={20}>
-            <div className="home-subtitle">I am a web developer.</div>
+            <div className="home-subtitle">I love making websites.</div>
           </Typing>
         </div>
       </React.Fragment>
@@ -37,7 +37,7 @@ const HomeView = (props) => {
         <div className="home-container">
           <div className="home-title">Hi, I am Hardik</div>
           <Typing startDelay={500} speed={30}>
-            <div className="home-subtitle">I am a web developer.</div>
+            <div className="home-subtitle">I love making websites.</div>
           </Typing>
           <div className="btn-container">
             <button className="home-btn" onClick={selectGraphical}>
@@ -73,9 +73,7 @@ const Home = () => {
   return (
     <React.Fragment>
       {" "}
-      <div className="bg-container">
-        <ParticlesBg type="custom" color="#ffffff" config={particleConfig} />
-      </div>
+      <div className="bg-container"></div>
       {renderView()}
       <Footer />
     </React.Fragment>
@@ -83,3 +81,5 @@ const Home = () => {
 };
 
 export default Home;
+
+//<ParticlesBg type="custom" color="#ffffff" config={particleConfig} />
