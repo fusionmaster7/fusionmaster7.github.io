@@ -1,4 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 24px;
+}
+
+.header:hover {
+  cursor: pointer;
+}
+
 .bg-container {
   position: fixed;
   top: 0;
@@ -30,4 +49,108 @@
 .home-subtitle {
   font-size: 32px;
   font-weight: 400;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.home-btn {
+  margin: 0px 10px;
+  padding: 5px 10px;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.home-btn:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+
+.terminal-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+  margin-top: 60px;
+  width: 60%;
+  background-color: rgb(48, 10, 36);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 40px;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.message {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.message-command {
+  color: rgb(61, 104, 10);
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.message-input-container {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  color: rgb(61, 104, 10);
+  font-weight: 700;
+}
+
+.message-input {
+  border: none;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  background-color: rgb(48, 10, 36);
+  color: rgb(61, 104, 10);
+  font-weight: 700;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Ubunto Mono", monospace;
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  .home-container {
+    height: 90vh;
+  }
+  .home-title {
+    font-size: 48px;
+  }
+
+  .home-subtitle {
+    font-size: 20px;
+  }
 }
