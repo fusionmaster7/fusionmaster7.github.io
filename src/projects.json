@@ -27,6 +27,6 @@
     "id": 4,
     "name": "Torrent-Client",
     "desc": "Basic Torrent Client Implementation using node.",
-    "stack": ["node.js"]
+    "stack": ["node.js", "javascript"]
   }
 ]

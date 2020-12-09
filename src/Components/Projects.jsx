@@ -1,5 +1,6 @@
 import React from "react";
 import projects from "../projects.json";
+import Typing from "react-typing-animation";
 
 const Card = ({ project }) => {
   const renderStack = () => {
@@ -24,6 +25,9 @@ const Card = ({ project }) => {
 const Projects = () => {
   return (
     <div className="project-container">
+      <Typing speed={15}>
+        <div className="project-heading">What I have worked on:</div>
+      </Typing>
       <div className="project-row">
         <Card project={projects[0]} />
         <Card project={projects[1]} />
