@@ -130,6 +130,110 @@
   opacity: 1; /* Firefox */
 }
 
+.gui-heading {
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  color: white;
+}
+
+.gui-btn-row {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-top: 80px;
+}
+
+.gui-btn {
+  padding: 5px 10px;
+  font-family: "Ubuntu Mono", monospace;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  font-size: 20px;
+}
+
+.gui-btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.project-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 20px;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.project-card {
+  width: fit-content;
+  padding: 20px;
+  border: 2px solid white;
+  width: max-content;
+  margin: 0px 20px;
+}
+
+.project-card:hover {
+  cursor: default;
+  transform: scale(1.05);
+}
+
+.project-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+}
+
+.project-sep {
+  background-color: white;
+  height: 3px;
+  border: none;
+}
+
+.project-desc {
+  color: white;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 24px;
+  word-break: normal;
+  margin-top: 5px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 15px;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  align-self: flex-end;
+}
+
+.tech {
+  background-color: white;
+  font-family: "Ubuntu", sans-serif;
+  padding: 5px 10px;
+  margin: 0px 5px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -140,6 +244,10 @@
   margin-bottom: 30px;
   font-family: "Ubunto Mono", monospace;
   font-size: 18px;
+}
+
+.footer:hover {
+  cursor: default;
 }
 
 @media (max-width: 700px) {

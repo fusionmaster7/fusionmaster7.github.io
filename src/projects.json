@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "Zap",
+    "desc": "Zap is a decentralised file storage platform.",
+    "stack": ["React.js", "Solidity", "IPFS"]
+  },
+  {
+    "id": 1,
+    "name": "Bam",
+    "desc": "Doctor Dashboard with Video Conferencing and NLP Medical Diagnosis. Built over Ethereum Blockchain.",
+    "stack": ["React.js", "Solidity", "Ethereum", "Ganache"]
+  },
+  {
+    "id": 2,
+    "name": "MusicX",
+    "desc": "MusicX is an open source Spotify music client. It allows user to play music remotely without the app.",
+    "stack": ["node.js", "React.js", "MongoDB", "express"]
+  },
+  {
+    "id": 3,
+    "name": "HikenCoin",
+    "desc": "Native Blockchain Cryptocurrency Implementation.",
+    "stack": ["node.js", "typescript"]
+  },
+  {
+    "id": 4,
+    "name": "Torrent-Client",
+    "desc": "Basic Torrent Client Implementation using node.",
+    "stack": ["node.js"]
+  }
+]
