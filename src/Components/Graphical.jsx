@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Header from "./Header";
+import Info from "./Info";
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 const Graphical = () => {
   const [view, setView] = useState("info");
@@ -8,13 +10,13 @@ const Graphical = () => {
   const renderView = () => {
     switch (view) {
       case "info":
-        return <div className="gui-heading">Info</div>;
+        return <Info />;
       case "skills":
-        return <div className="gui-heading">Skills</div>;
+        return <Skills />;
       case "projects":
         return <Projects />;
       default:
-        return <div className="gui-heading">Info</div>;
+        return <Info />;
     }
   };
 

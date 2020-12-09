@@ -156,7 +156,7 @@
   color: white;
   background-color: black;
   border: 2px solid white;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .gui-btn:hover {
@@ -168,17 +168,27 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 5px;
   padding: 20px;
-  width: 60%;
+  width: 80%;
   flex-direction: column;
   justify-content: center;
+}
+
+.project-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 42px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .project-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   margin-bottom: 30px;
 }
 
@@ -232,6 +242,34 @@
   font-family: "Ubuntu", sans-serif;
   padding: 5px 10px;
   margin: 0px 5px;
+}
+
+.skills-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 42px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.skills-row {
+  padding-left: 20px;
+}
+
+.skill {
+  font-family: "Ubuntu Mono", monospace;
+  color: black;
+  background-color: white;
+  font-size: 24px;
+  padding: 5px 10px;
+  margin-right: 40px;
+}
+
+.skill:hover {
+  cursor: default;
+  transform: scale(1.15);
 }
 
 .footer {
