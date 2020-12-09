@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useContext } from "react";
-import Header from "./Header";
 import commandParser from "../messages.util";
 import { Context } from "../Store/Context";
 
