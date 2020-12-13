@@ -6,7 +6,7 @@ const Skills = () => {
     <React.Fragment>
       {" "}
       <div className="project-container">
-        <Typing speed={15}>
+        <Typing speed={30}>
           <div className="project-heading">What I know:</div>;
         </Typing>
         <div className="project-row skills-row">

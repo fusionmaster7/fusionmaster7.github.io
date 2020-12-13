@@ -289,6 +289,10 @@
 }
 
 @media (max-width: 700px) {
+  .header {
+    font-size: 20px;
+  }
+
   .home-container {
     height: 90vh;
   }
@@ -298,5 +302,66 @@
 
   .home-subtitle {
     font-size: 20px;
+  }
+
+  .home-btn {
+    width: fit-content;
+  }
+
+  .gui-btn-row {
+    width: 100%;
+  }
+
+  .gui-btn {
+    font-size: 16px;
+  }
+
+  .project-container {
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-heading {
+    font-size: 32px;
+    padding: 0px;
+  }
+
+  .project-row {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .project-card {
+    margin: 0px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .project-desc {
+    font-size: 12px;
+  }
+
+  .skills-row {
+    padding-left: 0px;
+    flex-direction: column;
+  }
+
+  .skill {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+  }
+
+  .tech {
+    font-size: 10px;
+  }
+
+  .project-row {
+    margin-bottom: 0px;
   }
 }

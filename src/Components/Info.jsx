@@ -6,7 +6,7 @@ const Info = () => {
     <React.Fragment>
       {" "}
       <div className="project-container">
-        <Typing speed={15}>
+        <Typing speed={30}>
           <div className="project-heading">Some things about me:</div>;
         </Typing>
       </div>

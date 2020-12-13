@@ -28,7 +28,13 @@ const HomeView = (props) => {
           <Typing startDelay={500} speed={20}>
             <div className="home-subtitle">I love making websites.</div>
           </Typing>
+          <div className="btn-container">
+            <button className="home-btn" onClick={selectGraphical}>
+              portfolio.advance();
+            </button>
+          </div>
         </div>
+        <Footer />
       </React.Fragment>
     );
   } else {
@@ -48,6 +54,7 @@ const HomeView = (props) => {
             </button>
           </div>
         </div>
+        <Footer />
       </React.Fragment>
     );
   }
@@ -75,7 +82,6 @@ const Home = () => {
       {" "}
       <div className="bg-container"></div>
       {renderView()}
-      <Footer />
     </React.Fragment>
   );
 };
