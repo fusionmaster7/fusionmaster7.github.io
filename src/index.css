@@ -122,6 +122,7 @@
   background-color: rgb(48, 10, 36);
   color: rgb(61, 104, 10);
   font-weight: 700;
+  outline: none;
 }
 
 ::placeholder {
