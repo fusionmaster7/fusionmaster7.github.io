@@ -20,6 +20,6 @@ body {
 }
 
 .nav-item:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 0.1em solid black;
     cursor: pointer;
 }
