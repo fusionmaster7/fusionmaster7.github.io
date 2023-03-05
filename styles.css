@@ -1,0 +1,25 @@
+body {
+    font-family: 'Source Code Pro',sans-serif;
+}
+
+
+#title {
+    text-align: center;
+}
+
+.centered-div {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#navbar {
+    justify-content: space-between;
+    width: 50%;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
