@@ -2,6 +2,14 @@ body {
     font-family: 'Source Code Pro',sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
 
 #title {
     text-align: center;
@@ -15,7 +23,7 @@ body {
 }
 
 #navbar {
-    justify-content: space-between;
+    justify-content: space-around;
     width: 50%;
 }
 
