@@ -26,3 +26,8 @@ a:visited {
     justify-content: space-around;
     width: 50%;
 }
+
+.nav-item:hover {
+    border-bottom: 0.1em solid black;
+    cursor: pointer;
+}
