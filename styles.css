@@ -24,13 +24,15 @@ a:visited {
 }
 
 #navbar {
-    justify-content: space-around;
-    width: 50%;
+    justify-content: left;
+    gap: 2em;
+    width: 60%;
 }
 
 .nav-item {
     margin-bottom: 0.2em;
     border: 0.1em solid white;
+    font-size: 1.1em;
 }
 
 .nav-item:hover {
@@ -50,4 +52,13 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+}
+
+#blogs-list {
+    flex-direction: column;
+}
+
+.blog-list-item {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
